@@ -21,7 +21,7 @@ def main():
 
     # Print out the interest earned and updated savings account balance with interest earned for the given months.
     
-    print(f"Interest earned: {savings_interest_earned:.2f}")
+    print(f"Interest earned: $ {savings_interest_earned:.2f}")
     print(f"""Updated savings balance with {savings_interest_earned:.2f} interest 
           earned over {savings_maturity} months : $ {updated_savings_balance:.2f}.
          """)
@@ -37,7 +37,7 @@ def main():
 
     # Print out the interest earned and updated CD account balance with interest earned for the given months.
    
-    print(f"Interest earned: {cd_interest_earned:.2f}")
+    print(f"Interest earned: $ {cd_interest_earned:.2f}")
     print(f"""Updated savings balance with {cd_interest_earned:.2f} interest
           earned over {cd_maturity} months : $ {updated_cd_balance:.2f}.
          """)
